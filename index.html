@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sahira's Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4231346c72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="">Sahira Sheikh</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Introduction">Introduction</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mode">Mode</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Demerits">Demerits</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Code">Python Code</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Introduction to Mode</h1>
+
+    </div>
+    <div class="middle-container">
+        <div class="skills" id="Introduction">
+            <h2>Introduction to mode</h2>
+            <div class="skill-row">
+                <p class="web-description">
+                    The mode is the value that appears most often in a set of data values. This gives us an insight of the data on the lines of the value with maximum frequency when we are comparing the data points.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="skill-row" id = "Mode">
+        <h2> Finding mode of different types of data series</h2>
+        <p>
+            <h3>Individual Series:</h3>
+            <p class="web-description"> 
+                Mode is given by the item with maximum frequency 
+                </p>
+            <h3>Discrete Series</h3>
+            <p class="web-description">
+                The x value corresponding to the maximum value in the frequency column is the mode 
+            </p>
+            <h3>Continous Series</h3>
+            <p class="web-description">
+                The mode for continuous series is given by the formula:<br>
+                <img src="https://i.ibb.co/c1t6zrV/mode-cont.jpg" alt="mode-cont" border="0"><br>
+                Where:<br>
+                <img src="https://i.ibb.co/vzbsxNq/mode-cont-cotd.jpg" alt="mode-cont-cotd" border="0"><br>
+                Where:<br>
+                <ul> 
+                    <li>F<sub>corresponding</sub> = maximum frequency in the frequency column </li>
+                    <li>f<sub>1</sub> = the difference between maximum frequency in the frequency column and the frequency above it </li>
+                    <li>f<sub>2</sub> = the difference between maximum frequency in the frequency column and the frequency below it </li>
+                </ul> 
+             </p>
+    </div>
+    <hr>
+    <div class="skill-row" id = "Demerits">
+        <h2>Demerits of mode</h2>
+        <p class="web-description">
+            Here are the demerits of using mode as a descriptive statistic for calculations<br>
+            <ol>
+                <li>Mode cannot be determined if the series is bimodal or multimodal</li>
+                <li>Mode is based only on concentrated values; other values are not taken into account in-spite of their big difference with the mode. In continuous series only the lengths of class intervals are considered</li>
+                <li>Mode is most affected by fluctuation of sampling</li>
+                <li>Mode is not so rigidly defined. Solving the problem by different methods we won’t get the same results as in case of mean.</li>
+            </ol>
+        </p>
+        <p class="web-description">
+            Mode is a good descriptive statistic to replace the missing values with it in QUALITATIVE datasets
+        </p>
+    </div>
+    <div class="skill-row" id = "Code">
+        <h2>Python code for finding mode</h2>
+        <script src="https://gist.github.com/sheikh-sahira1703/84cb63fde23d07dbb7332d7054889679.js"></script>
+    </div>
+    </div>
+
+    <hr>
+    <div class="contact-me" id="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Contact Me</h3>
+        <p class="contact">You can contact me via the button given below. Feel free to contact me. Suggestions and corrections are welcomed warmly by me.</p>
+        <a class="btn btn-dark" href="mailto:shiekh_sahira1703@hotmail.c">CONTACT ME</a>
+    </div>
+    <div class="bottom-container">
+        <div class="social-media">
+            <a class="footer-link" href="https://instagram.com/sahira_speaks?igshid=712oqk2r0kfe"><i class="fab fa-instagram"></i>
+                My Instagram profile
+            </a>
+        <a class="footer-link" href="https://github.com/sheikh-sahira1703"><i class="fab fa-github"></i>
+                GitHub Profile
+            </a>
+            <br>
+            <i class="fas fa-map-pin copyright"></i>
+            <p class="copyright">Mumbai, MH</p>
+        </div>
+
+
+
+        <p class="copyright">© Sahira Sheikh.</p>
+    </div>
+</body>
+
+</html>
+
